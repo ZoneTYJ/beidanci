@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:weightSum="3" >
+
+    <Button
+        android:id="@+id/btn_personal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_icon_solid"
+        android:gravity="center"
+        android:text="个人中心"
+        android:textColor="@color/title_gray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_recite"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_icon_solid"
+        android:gravity="center"
+        android:text="背单词"
+        android:textColor="@color/title_gray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_exam"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_icon_solid"
+        android:gravity="center"
+        android:text="单词测验"
+        android:textColor="@color/title_gray"
+        android:textSize="20sp" />
+
+</LinearLayout>
